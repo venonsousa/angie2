@@ -119,13 +119,23 @@
       justify-content: center;
       align-items: center;
     }
+
+    /* Remove estilo padrão do link */
+    a.block-link {
+      text-decoration: none;
+      color: inherit;
+    }
   </style>
 </head>
 <body>
   <div class="all">
-    <div class="lefter">
-      <div class="text">Pcback</div>
-    </div>
+    <!-- Pcback agora é um link -->
+    <a href="pcback.html" target="_blank" class="block-link">
+      <div class="lefter">
+        <div class="text">Pcback</div>
+      </div>
+    </a>
+
     <div class="left">
       <div class="text">Fundos</div>
     </div>
